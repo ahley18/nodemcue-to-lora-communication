@@ -2,8 +2,9 @@
 #define SS 15
 #define RST 16
 #define DIO0 2
-String data = "Subscribe Tech Vegan";
+
 int x;
+
 void setup()
 {
   Serial.begin(9600);
